@@ -1,7 +1,7 @@
 from telethon import events
 import os
 from .. import worker
-from spam-bot import BOT_USERS, BOT_USER, ALIVE_NAME
+from ANKIT import BOT_USERS, BOT_USER, ALIVE_NAME
 import asyncio
 currentversion = "ONLY ONE"
 
