@@ -1,0 +1,49 @@
+{
+    "name": "spam-botu-telegram",
+    "description": "telegram için yapılmış kolay spam botu",
+    "logo": "https://te.legra.ph/file/f6bdfa9f59dd1f33984f1.jpg",
+    "keywords": [
+        "telegram",
+        "python",
+        "spam",
+        "spammer"
+    ],
+    "repository": "https://github.com/devran6606/telegram-spam-bot",
+    "website": "https://xnkit.github.io/k",
+    "success_url": "https://github.com/devran6606",
+    "env": {
+        "API_HASH": {
+            "description": "my.telegram.org dan alınan API HASH",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "my.telegram.org dan alınan API ID",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot tokenin @BotFather dan alınabilir",
+            "value": ""
+        },
+        "ALIVE_NAME": {
+            "description": "Bot sahibinin ismi",
+            "value": ""
+        },
+        "LOGGER_GROUP": {
+            "description": "Botunuzu özel bir gruba ekleyin (log için) ve bu değişkeni grup kimliği no ile doldurun.",
+            "value": ""
+        },
+        "PM_IMG": {
+            "description": " /alive komutu için gerekli olan telgraf medya bağlantısını ekleyin.",
+            "value": "https://te.legra.ph/file/f6bdfa9f59dd1f33984f1.jpg"
+        },
+        "BOT_USER": {
+            "description": "Botu kullanacak kişilerin idlerini gir örnek id1 id2 id3",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
