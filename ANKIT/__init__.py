@@ -19,7 +19,7 @@ BOT_TOKEN = config("BOT_TOKEN", default=None)
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", None))
 BOT_USER = os.environ.get("BOT_USER")
 BOT_USERS = str(BOT_USER).split(" ", maxsplit=len(BOT_USER))
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Affetmez")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ramo")
 
 
 worker = TelegramClient('worker', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
